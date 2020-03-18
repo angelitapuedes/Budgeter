@@ -23,6 +23,18 @@ public class BudgetMaster
  
          doube reSt=newAmount-savIngs-blow;
  
+         /******************Allocation COmplete***************** */
+        if(reSt<=0)
+        {
+            System.out.println("Your Under");
+        }
+        else
+        {
+            System.out.println("You did great for this payroll");
+        }
+        System.out.println("Breakdown of you Budget:");
+        System.out.printf("tithe: %d\n bills: %d\n saveIngs %d\n blow %s\n reSt %d\n",tithe, bills, saveIngs, blow, reSt);
+
     
 
         
